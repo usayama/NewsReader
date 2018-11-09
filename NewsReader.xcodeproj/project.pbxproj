@@ -14,6 +14,7 @@
 		0C94B85D219525630037A148 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C94B85C219525630037A148 /* ListViewController.swift */; };
 		0C94B85F219559B30037A148 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C94B85E219559B30037A148 /* Item.swift */; };
 		0C94B8622195B71F0037A148 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C94B8612195B71F0037A148 /* WebKit.framework */; };
+		0C94B8662195B7B90037A148 /* DatailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C94B8652195B7B90037A148 /* DatailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		0C94B85C219525630037A148 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		0C94B85E219559B30037A148 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		0C94B8612195B71F0037A148 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		0C94B8652195B7B90037A148 /* DatailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 		0C94B83E219522660037A148 = {
 			isa = PBXGroup;
 			children = (
+				0C94B8652195B7B90037A148 /* DatailViewController.swift */,
 				0C94B849219522660037A148 /* NewsReader */,
 				0C94B848219522660037A148 /* Products */,
 				0C94B8602195B71F0037A148 /* Frameworks */,
@@ -153,6 +156,7 @@
 				0C94B85D219525630037A148 /* ListViewController.swift in Sources */,
 				0C94B85F219559B30037A148 /* Item.swift in Sources */,
 				0C94B84B219522660037A148 /* AppDelegate.swift in Sources */,
+				0C94B8662195B7B90037A148 /* DatailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
