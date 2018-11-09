@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--List View Controller-->
+        <!--一覧-->
         <scene sceneID="7Tt-Hg-SAv">
             <objects>
                 <tableViewController id="GOj-T1-iBA" customClass="ListViewController" customModule="NewsReader" customModuleProvider="target" sceneMemberID="viewController">
@@ -41,7 +41,7 @@
                             <outlet property="delegate" destination="GOj-T1-iBA" id="uhr-WU-h9F"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="kz7-r2-IFp"/>
+                    <navigationItem key="navigationItem" title="一覧" id="kz7-r2-IFp"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yUo-Yk-i5p" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
