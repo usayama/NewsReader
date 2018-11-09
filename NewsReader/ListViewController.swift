@@ -1,9 +1,13 @@
-//
-//  ListViewController.swift
-//  NewsReader
-//
-//  Created by Yusuke Nakane on 2018/11/09.
-//  Copyright © 2018 usayama. All rights reserved.
-//
+import UIKit
 
-import Foundation
+class ListViewController: UITableViewController {
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 3
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: <#T##IndexPath#>)
+        return cell
+    }
+}
